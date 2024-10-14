@@ -5,6 +5,17 @@ nav {
   align-items: center;
   justify-content: space-evenly;
 
+  .navHead {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+      width: 80px;
+    }
+  }
+
   a {
     text-decoration: none;
     color: white;
