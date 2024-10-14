@@ -2,9 +2,8 @@ nav {
   width: 25vw;
   background-color: black;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-evenly;
 
   .navHead {
     width: 100%;
@@ -16,10 +15,6 @@ nav {
     h2 {
       width: 230px;
       text-align: center;
-    }
-
-    #openClose {
-      background-color: white;
     }
   }
 
