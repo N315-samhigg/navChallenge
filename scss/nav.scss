@@ -2,6 +2,7 @@ nav {
   width: 25vw;
   background-color: black;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 
@@ -23,13 +24,32 @@ nav {
   }
 
   .navLinks {
+    width: 15vw;
+
+    z-index: 99;
+    background-color: black;
+
+    position: absolute;
+    top: 150px;
+    left: 0;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
     .navLink {
+      width: 100%;
+      min-height: 5vh;
+
       display: none;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .navLink:hover {
+      background-color: #222;
+      color: #ddd;
     }
   }
 
