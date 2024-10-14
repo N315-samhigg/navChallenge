@@ -1,4 +1,4 @@
-import toggleNav from "./model";
+import toggleNav from "./model.js";
 
 function initSite() {
     var navOpen = true;

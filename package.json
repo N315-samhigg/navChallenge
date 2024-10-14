@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile": "sass scss/styles.scss css/styles.css",
+    "compile": "sass scss/styles.scss css/styles.css -w --no-source-map",
     "serve": "live-server"
   },
   "keywords": [],
