@@ -16,6 +16,13 @@ nav {
     h2 {
       width: 80px;
     }
+
+    .navLinks {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
   }
 
   a {

@@ -41,6 +41,12 @@ nav .navHead {
 nav .navHead h2 {
   width: 80px;
 }
+nav .navHead .navLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 nav a {
   text-decoration: none;
   color: white;

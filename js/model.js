@@ -1,9 +1,9 @@
 export default function toggleNav(currentOpen) {
     if(currentOpen){
-        $(".navLink").style.display = "";
+        $(".navLink").get(0).style.display = "";
         console.log("closing nav");
     } else {
-        $(".navLink").style.display = flex;
+        $(".navLink").get(0).style.display = flex;
         console.log("opening nav");
     }
 }
