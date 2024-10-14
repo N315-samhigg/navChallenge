@@ -9,6 +9,7 @@ function route() {
 
 function initSite() {
     $(".navHead").on("click", function() {toggleNav()});
+    $(".navLink").on("click", function() {toggleNav()});
     $(window).on("hashchange", route);
     route();
 }
