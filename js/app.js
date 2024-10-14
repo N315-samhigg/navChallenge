@@ -1,9 +1,16 @@
-import toggleNav from "./model.js";
+import { changePage, toggleNav } from "./model.js";
+
+function route() {
+    let hashTag = window.location.hash;
+    let pageID = hashTag.replace("#", "");
+    changePage(pageID);
+    //console.log("route " + pageID);
+}
 
 function initSite() {
-    var navOpen = true;
-    toggleNav(navOpen);
-    $(".navHead").on("click", toggleNav(navOpen))
+    $(".navHead").on("click", function() {toggleNav()});
+    $(window).on("hashchange", route);
+    route();
 }
 
 $(document).ready(function () {

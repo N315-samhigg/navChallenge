@@ -24,7 +24,7 @@ p {
 }
 
 nav {
-  width: 250px;
+  width: 25vw;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -32,20 +32,30 @@ nav {
   justify-content: space-around;
 }
 nav .navHead {
-  width: 250px;
+  width: 100%;
   height: 150px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 nav .navHead h2 {
-  width: 80px;
+  width: 230px;
+  text-align: center;
+}
+nav .navHead #openClose {
+  background-color: white;
+}
+nav .navHead:hover {
+  cursor: pointer;
 }
 nav .navLinks {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+nav .navLinks .navLink {
+  display: none;
 }
 nav a {
   text-decoration: none;
